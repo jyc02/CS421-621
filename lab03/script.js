@@ -1,3 +1,4 @@
+//this function handles the functionality of the calculator
 function calc(value){
     if (value == 'pow'){
         document.getElementById("display").value = document.getElementById("display").value * document.getElementById("display").value;
