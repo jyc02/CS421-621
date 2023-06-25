@@ -3,10 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>lab03</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <script src="script.js"></script>
+    <div class="calculator">
+        <h1>Calculator</h1>
+        <input id="display" type="text">
+        <div class = "row">
+            <input onclick="calc('')" type="button"  value = "AC" >
+            <input onclick="calc('sin')" type="button"  value = "sin">
+            <input onclick="calc('cos')" type="button"  value = "cos">
+            <input onclick="calc('tan')" type="button"  value = "tan">
+            <input onclick="calc('7')" type="button"  value = "7">
+            <input onclick="calc('8')" type="button"  value = "8">
+            <input onclick="calc('9')" type="button"  value = "9">
+        </div>
+        <div class = "row">
+            <input onclick="calc('pow')" type="button"  value = "pow">
+            <input onclick="calc('4')" type="button"  value = "4">
+            <input onclick="calc('5')" type="button"  value = "5">
+            <input onclick="calc('6')" type="button"  value = "6">
+            <input onclick="calc('/')" type="button"  value = "/">
+            <input onclick="calc('1')" type="button"  value = "1">
+            <input onclick="calc('2')" type="button"  value = "2">
+        </div>
+        <div class = "row">
+            <input onclick="calc('3')" type="button"  value = "3">
+            <input onclick="calc('*')" type="button"  value = "*">
+            <input onclick="calc('0')" type="button"  value = "0">
+            <input onclick="calc('=')" type="button"  value = "=">
+            <input onclick="calc('+')" type="button"  value = "+">
+            <input onclick="calc('-')" type="button"  value = "-">
+            <input onclick="calc('sqrt')" type="button"  value = "sqrt">
+        </div>
+    </div>
 </body>
 </html>

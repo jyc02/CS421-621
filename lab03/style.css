@@ -1,0 +1,30 @@
+
+* {
+    /* border: .5px red solid; */
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.calculator{
+    height: 20vh;
+    width: 40vw;
+    margin-left: 30vw;
+    /* border: 3px purple solid; */
+}
+
+.calculator input{
+    width: 39vw;
+    height: 5vh;
+}
+
+.row {
+    margin: 3px 3px;
+}
+
+.row input{
+    /* border: .5px green solid; */
+    height: 5vh;
+    width: 5vw;
+}
