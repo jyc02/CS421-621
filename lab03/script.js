@@ -1,4 +1,5 @@
 //this function handles the functionality of the calculator
+// w3schools are referenced for builtin functions
 function calc(value){
     if (value == 'pow'){
         document.getElementById("display").value = document.getElementById("display").value * document.getElementById("display").value;
