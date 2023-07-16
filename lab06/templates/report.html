@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="jumbotron">
+    <ul id="error-list">
+        {% for error in error_list%}
+        <li>{{error}}</li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}
+
