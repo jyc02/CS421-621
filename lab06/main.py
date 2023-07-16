@@ -56,7 +56,9 @@ def report():
         error_list.append(message)
     if message == "":
         message = "Password and User worked!"
-    return render_template("report.html", error_list=error_list)
+    if len(error_list) == 0:
+        message = "User and Password work!"
+    return render_template("report.html", error_list=error_list, message = message)
 
 
 if __name__ == '__main__':
