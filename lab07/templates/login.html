@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="jumbotron">
+    <h1>Sign In</h1>
+    <form method = "POST">
+        {{ form.hidden_tag() }}
+        {{ logUser}} {{ form.username() }} {{ userError }} <br>
+        {{ logPw  }}{{ form.password()}} {{ pwError }} <br>
+        {{ message }} <br>
+        {{ form.submit() }}
+    </form>
+    <a href="{{url_for('signup')}}">Sign Up!</a>
+</div>
+
+{% endblock %}
